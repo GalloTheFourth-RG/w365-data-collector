@@ -1,0 +1,11 @@
+# Collection output
+*.zip
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
