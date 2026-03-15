@@ -10,7 +10,7 @@ The owner (Richie) is an AVD/EUC consultant. He is new to Git/DevOps — keep co
 
 - **w365-evidence-pack** (private, at `C:\repos\w365-evidence-pack`) — ingests the ZIP offline, produces HTML dashboard + CSV exports
 - **shared-assessment-framework** (private, at `C:\repos\shared-assessment-framework`) — shared CSS/JS, PII helpers, build template
-- **Aperture** (`enhanced-avd-evidence-pack`, private, at `C:\repos\enhanced-avd-evidence-pack`) — sister product for AVD assessment
+- **Aperture** (`aperture-assessment`, private, at `C:\repos\aperture-assessment`) — sister product for AVD assessment
 - **intune-evidence-pack** (private, at `C:\repos\intune-evidence-pack`) — sister product for Intune assessment
 
 ## Architecture
