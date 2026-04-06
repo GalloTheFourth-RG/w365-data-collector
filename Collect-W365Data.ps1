@@ -6,7 +6,7 @@
 .DESCRIPTION
     This script collects Windows 365 configuration, provisioning, network,
     and Cloud PC data via the Microsoft Graph beta API. It produces a portable
-    ZIP file containing JSON exports that can be analysed offline by the
+    ZIP file containing JSON exports that can be analyzed offline by the
     W365 Evidence Pack.
 
     The script is READ-ONLY — it makes no changes to your environment.
