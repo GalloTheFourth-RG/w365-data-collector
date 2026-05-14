@@ -40,7 +40,7 @@ Source: `/deviceManagement/virtualEndpoint/cloudPCs`
 | `userPrincipalName` | string | Assigned user UPN |
 | `servicePlanId` | string | W365 service plan GUID |
 | `servicePlanName` | string | Plan name (e.g. "Windows 365 Enterprise 2 vCPU 8 GB 128 GB") |
-| `servicePlanType` | string | enterprise / business / frontline |
+| `servicePlanType` | string | enterprise / business / frontline (Graph API value; "frontline" type is now branded "Flex" as of May 2026 -- product/licensing unchanged) |
 | `provisioningPolicyId` | string | Linked provisioning policy GUID |
 | `provisioningPolicyName` | string | Provisioning policy display name |
 | `provisioningType` | string | dedicated / shared |
@@ -205,7 +205,7 @@ Source: `/deviceManagement/virtualEndpoint/servicePlans`
 |-------|------|-------------|
 | `id` | string | Service plan GUID |
 | `displayName` | string | Plan display name |
-| `type` | string | enterprise / business / frontline |
+| `type` | string | enterprise / business / frontline (Graph API value; "frontline" type is now branded "Flex" as of May 2026) |
 | `vCpuCount` | number | Virtual CPU count |
 | `ramInGB` | number | RAM in GB |
 | `storageInGB` | number | Storage in GB |
